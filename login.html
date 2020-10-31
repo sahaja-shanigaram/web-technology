@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="bootstrap.min.css">
+<script src="bootstrap.min.js"> </script>
+<style>
+    .jumbotron{
+        margin-top: 40px;
+        margin-left: 70px;
+        margin-right: 100px;
+        background-color: white;
+        border-radius: 40px;
+
+    }
+
+    input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    .btn-primary{
+        width: 45%;
+        background-color: blue;
+        border-radius: 30px;
+    }
+    body{
+        background-color: blue;
+    }
+
+    
+</style>
+<body>
+    <div class="container" >
+        <div class="jumbotron">
+       <div class="row">
+           <div class="col-lg-6">
+               <img src="shop.png" alt="">
+           </div>
+           <div class="col-lg-6">
+               
+                   <form onsubmit="return validations()" action="">
+                       <h5>Login into your account</h5>
+                       <br>
+                       <br>
+                       <input type="text" id="email" placeholder="Username or Email"  >
+                       <br><br>
+                       <input type="password" id="pass" placeholder="Password">
+                       <br><br>
+                       <input type="submit" class="btn-primary" value="Login">
+                       <br><br>
+                       <a href="#">Forgot password?</a><br><br>
+                       <p>don't have an account <a href="registration.html">Click hear</a>
+                       </p>
+                   </form>
+            
+           </div>
+        
+       </div>
+    </div>
+
+    </div>
+</body>
+<script src="login.js"></script>
+</html>
